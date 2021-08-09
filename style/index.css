@@ -230,3 +230,12 @@ header {
         padding: 10%;
     }
  }
+ 
+/* 360px screen style */
+@media (max-width: 360px) {
+    .mid-img {
+        background-image: url('https://picsum.photos/seed/picsum/150/150');
+        width: 150px;
+        height: 150px;
+    }
+}
