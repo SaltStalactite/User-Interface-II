@@ -86,6 +86,8 @@ button {
     font-size: 2rem;
     background-color: rgb(7, 137, 146);
     padding: .5rem;
+    width: 50%;
+    align-content: center;
     border-radius: 10px;
     text-shadow: darkblue 2px 2px;
 }
@@ -108,7 +110,7 @@ header {
     display: flex;
     justify-content: center;
 }
-#header-image {
+.header-image {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -119,6 +121,7 @@ header {
     height: 40rem;
     border-radius: 20px;
     border: #eb7f1a 1px solid;
+    align-items: center;
 }
 /* Middle Section Styles */
 .middle {
@@ -214,13 +217,13 @@ header {
  }
 /* 700 px */
 @media (max-width: 700px){
-    #header-image {
+    .header-image {
         width: 65%;
     }
 }
  /*500px screen styles */
  @media (max-width: 500px) {
-    #header-image {
+    .header-image {
         width: 75%;
     }
     footer {
